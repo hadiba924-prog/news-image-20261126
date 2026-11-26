@@ -1,83 +1,82 @@
 # THE WORLD TODAY — Thursday 26 November 2026
 
-[![news-image-20261126](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
-[![rank](https://make.fun/badge/news-image-20261126/hadiba924-prog/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
-[![reward](https://make.fun/badge/news-image-20261126/hadiba924-prog/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261126)
+[![make.fun](https://make.fun/badge/news-image-20261126.svg)](https://make.fun/bounty/news-image-20261126)
+[![rank](https://make.fun/badge/news-image-20261126/hadiba924-prog/news-image-20261126/rank.svg)](https://make.fun/bounty/news-image-20261126)
+[![reward](https://make.fun/badge/news-image-20261126/hadiba924-prog/news-image-20261126/reward.svg)](https://make.fun/bounty/news-image-20261126)
 
-## What this is
+One image that sums up the world's news of Thursday 26 November 2026:
+38 dated stories across 9 regions — Ukraine's strike on a Russian
+airbase, the US telling its citizens to leave Iran, the Thanksgiving
+storm, and more — drawn as a dense one-page newspaper.
 
-One page that sums up the world's news of Thursday 26 November 2026: a dense
-data front page, "THE WORLD TODAY", drawn entirely in code with Python and
-Pillow — no AI image generation, so every letter is crisp and nothing is
-garbled. Three leads on top, then 24 more stories in eight colour-coded
-sections. Every story on the page either happened on 26 November 2026 or was
-first reported that day, in some time zone. The page was built in the first
-hours of the day (UTC), so it covers the news that existed by then — the
-Thanksgiving storm in New York, Taiwan's tariff answer, the BBC–Met Office
-partnership going live, and the day's sport and fixtures — and it says so
-honestly rather than padding itself with yesterday's news.
+## Entry
+
+- `entry.png` — 1024×1024 PNG, 217,415 bytes, drawn programmatically
+  (Python + Pillow, Liberation fonts) from headlines verified against
+  26 November 2026 reporting.
+- `main.ts` — Node 22, standard library only. Copies `entry.png` to
+  `$MAKEFUN_OUTPUT_DIR/entry.png` after checking the PNG signature,
+  the 1024×1024 size, the 1 MiB limit and the SHA-256 of the copy.
 
 ## The stories
 
-**Leads** — Storm hits Thanksgiving (New York rain, wind and warnings; the
-100th Macy's parade moves to Saturday) · Taiwan tariff: 15% (Taipei says the
-US proposed the lowest tier) · BBC x Met Office live (partnership goes live
-today).
+**Leads** — Ukraine hits a Russian airbase, Kyiv struck · US tells citizens
+to leave Iran as war fears grow · Storm soaks Thanksgiving, Macy's parade
+moves to Saturday.
 
-**Americas** — Thanksgiving Day · NYC storm warnings · Parade replay on NBC ·
-Detroit parade steps off · National Dog Show.
+**Americas** — Puerto Rico court cancels Luma contract · Brazil withdraws
+ambassador to Argentina · National Dog Show · Detroit parade in the rain.
 
-**Europe** — Snow sweeps Scotland · UK cities: cloudy, 4–8°C.
+**Europe** — Poland plans no-fly zone near Ukraine · Leaked data put Russian
+war dead near 500,000 · Spain votes Sunday · EU leaders meet over €2 trillion
+budget.
 
-**Asia-Pacific** — PIA flies its own jets to UK.
+**Middle East** — UN warns of rising Israeli violence risk · Judges may drop
+top Netanyahu charge · Gaza strike kills Hamas security chief · Iraq court
+backs federal control of Kurd oil.
 
-**South Asia** — India marks Constitution Day · National Milk Day · Farm
-unions to protest.
+**Asia-Pacific** — Flinders Island fire destroys six homes · Taiwan says US
+proposed 15% tariff · Kim vows wider tactical nuclear deployment · Indonesia
+gold mine flood kills at least 13 · Bank of Korea raises rate to 3.25%.
 
-**Business** — Wall Street shut after slide (Wednesday's close is given as
-context; the closure is Thursday's news) · Tata Sons board put off (announced
-25 Nov; the meeting itself was scheduled for 26 Nov).
+**South Asia** — Nepal to declare 213 Indians missing presumed dead ·
+Bangladesh garment wage rise sparks protests · Hasina return dispute strains
+India ties.
 
-**Science & Tech** — AI meets copyright · Quantum leap for Korea (IQM–QAI
-54-qubit computer) · Kioxia flashes faster memory.
+**Africa** — Drone strikes kill 15 in Sudan · Court sides with Ramaphosa ·
+Somalia, Uganda step up al-Shabaab fight · Nigeria seizes $227M meth lab.
 
-**Sport** — Chess: Game 3 today (Gukesh–Sindarov, Geneva) · India A v Sri
-Lanka A · Pakistan A v Bangladesh A · Bears at Lions 1 p.m. · Eagles at
-Cowboys 4:30 p.m. · Chiefs at Bills 8:20 p.m. · TCU at Texas Tech 8 p.m.
+**Business** — Asia trade ministers meet after US tariff salvo · Poundland
+collapses into administration · UK energy bills to rise 26% in January.
 
-**Tonight on TV** — JLo live in Las Vegas, Mary Poppins, The Tonight Show
-with Justin Timberlake, Friendsgiving marathon.
+**Science & Tech** — Korea unveils 54-qubit quantum computer · Kioxia flashes
+faster memory · FCC approves SpaceX plan for a million satellites.
 
-## Sources
+**Sport & Culture** — African teams advance at U-17 World Cup · Kurtley Beale
+returns to the Wallabies · Federica Brignone retires · Court gives Africa Cup
+title back to Senegal · JLo live in Las Vegas tonight.
 
-Reuters, AP, BBC, Met Office, Chess.com, NFL, ACC, weather.com, and the
-outlets that first reported each item on 26 November 2026. Stories that
-turned out to belong to 25 November — the Houthi claim on Ras Tanura, the
-Cairo tanker fire, the Cartagena hostage rescue, the Shenzhou-24 docking,
-the North Korea–Switzerland expulsion, the IPL auction list, the Flipkart
-CEO exit, the Hera asteroid images — were checked and left out.
+## Date discipline
 
-## How to run it
+Every story on the page either happened on 26 November 2026 or was first
+reported that day. Items that turned out to belong to 25 November — the US
+tariff proposal, the Cairo tanker fire, the Houthi claim on Ras Tanura, the
+Cartagena hostage rescue, the Shenzhou-24 docking, the Australia–Solomons
+treaty, the Chen Jining probe — were checked and left out. The tariff story
+is covered through its 26 November reaction: Asia-Pacific trade ministers
+meeting in Vietnam hours after the announcement.
+
+## Run
 
 ```sh
 mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 ```
 
-`main.ts` (Node 22, standard library only) copies `entry.png` to
-`$MAKEFUN_OUTPUT_DIR/entry.png` (default `/output`) and verifies it first:
-at most 1,048,576 bytes, exactly 1024×1024 pixels, whole PNG or JPEG by its
-magic bytes, and byte-identical to the source after copying. Running it twice
-writes the same bytes twice — it is a pure copy, so it is deterministic.
+## Sources
 
-To redraw the image from scratch:
+BBC, Reuters, Al Jazeera, The Guardian, AFP, AP. All stories were first
+reported on 26 November 2026.
 
-```sh
-python3 build_image.py
-```
+## License
 
-That regenerates `entry.png` with Pillow and Liberation Sans. The image is
-1024×1024 and 197,530 bytes (PNG), inside the bounty limits.
-
-## Licence
-
-MIT — see LICENSE.
+MIT — see [LICENSE](LICENSE).
